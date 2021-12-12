@@ -8,14 +8,8 @@ import javax.swing.*;
 
 public class StartGui extends JPanel {
     public static int WIDTH = 800, HEIGHT = 800;
-    public static StartGui flappyBird;
-    public Panel panel;
-    public Rectangle bird;
-    public Rectangle test;
-
     public StartGui(){
         JFrame frame = new JFrame();
-        //panel = new Panel();
         frame.setSize(WIDTH,HEIGHT);
         frame.add(new Panel());
         frame.setTitle("Flappy Bird");
